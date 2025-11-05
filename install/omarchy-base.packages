@@ -19,10 +19,6 @@ cups
 cups-browsed
 cups-filters
 cups-pdf
-docker
-docker-buildx
-docker-compose
-dotnet-runtime-9.0
 dust
 evince
 exfatprogs
