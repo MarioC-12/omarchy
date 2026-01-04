@@ -353,8 +353,8 @@ show_install_ai_menu() {
       echo ollama
   )
 
-  case $(menu "Install" "  Dictation\n󱚤  Claude Code\n󱚤  Codex\n󱚤  Gemini CLI\n󱚤  Copilot CLI\n󱚤  Cursor CLI\n󱚤  LM Studio\n󱚤  Ollama\n󱚤  Crush") in
-  *Dictation*) present_terminal omarchy-voxtype-install ;;
+  case $(menu "Install" "  Dictation [AUR]\n󱚤  Claude Code\n󱚤  Copilot CLI [AUR]\n󱚤  Cursor CLI\n󱚤  Gemini\n󱚤  OpenAI Codex\n󱚤  LM Studio\n󱚤  Ollama\n󱚤  Crush") in
+  *Dictation*) present_terminal "echo 'Installing Hyprwhspr from AUR...'; yay -S --noconfirm hyprwhspr && hyprwhspr setup" ;;
   *Claude*) install "Claude Code" "claude-code" ;;
   *Codex*) install "Codex" "openai-codex" ;;
   *Gemini*) install "Gemini CLI" "gemini-cli" ;;
