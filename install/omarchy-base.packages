@@ -68,7 +68,6 @@ libreoffice-fresh
 llvm
 localsend
 luarocks
-makima-bin
 mako
 man-db
 mariadb-libs
@@ -86,7 +85,6 @@ obs-studio
 obsidian
 omarchy-nvim
 omarchy-walker
-opencode
 pamixer
 pinta
 playerctl
