@@ -15,6 +15,7 @@ btop
 chromium
 clang
 claude-code
+cliamp
 cups
 cups-browsed
 cups-filters
@@ -105,11 +106,14 @@ sddm
 signal-desktop
 slurp
 spotify
+socat
 starship
 sushi
 swaybg
 swayosd
 system-config-printer
+tesseract
+tesseract-data-eng
 tldr
 tree-sitter-cli
 tmux

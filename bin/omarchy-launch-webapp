@@ -1,6 +1,9 @@
 #!/bin/bash
 
 # Redirect standard WebApp calls to Firefox WebApp profile
+# omarchy:summary=Launch a URL as a web app in the default supported browser
+# omarchy:args=<url>
+
 browser=$(xdg-settings get default-web-browser)
 
 case $browser in
